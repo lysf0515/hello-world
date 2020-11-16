@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>首页</title>
+</head>
+
+<body>
+	<a href="#baidu">跳转到百度锚点</a>
+	<!-- 标题标签 1-6 -->
+	<h1>首页</h1>
+	<h6>标题</h6>
+	<hr />
+
+	<!-- 段落标签<p></p> -->
+	<p>这是段落标签这是段落标签这是段落标签这是段落标签这是段落标签这是段落标签1</p>
+	<p>这是段落标签这是段落标签<br>这是段落标签2</p>
+	<p>这是段落标签3</p>
+
+	<!-- 换行标签 -->
+	<p>这是段落标签这是段落标签<br>这是段落标签2</p>
+
+	<!--水平线 <hr/>-->
+
+	<!--加粗<strong></strong>-->
+	<strong>你好</strong>
+	<br />
+	<!--斜体<em></em>-->
+	<em>斜体</em>
+
+	<p>这是段落标&nbsp;签这是段落标签这&nbsp;是段落标签2</p>
+
+	&quot;7&gt;4&quot;<br>
+	&copy;1999-2020<br>
+	<hr>
+
+	<!--图片标签-->
+	<img src="D:\\壁纸\\2.jpg" alt="图片找不到了。。。" title="鸭子" width="4272" height="2848"><br>
+	<hr>
+
+	<!--链接标签-->
+	<a href="http://baidu.com" name="baidu" target="_blank">百度 </a><br>
+	<!--邮件标签-->
+	<a href="mailto:17737469965@163.com">联系我</a><br>
+	<!--无序列表-->>
+	<ul>
+		<li>列表项1</li>
+		<li>列表项2</li>
+	</ul>
+	<!--有序列表-->>
+	<ol>
+		<li>列表1</li>
+		<li>列表2</li>
+		<li>列表3</li>
+	</ol>
+
+	<!--定义列表-->
+	<dl>
+		<dt>水果</dt>
+		<dd>苹果</dd>
+		<dd>香蕉</dd>
+		<dt>水果</dt>
+		<dd>苹果</dd>
+	</dl>
+
+	<dl>
+		<dt style="float: left;"><img src="book.jpg" alt="图书" width="30" height="100"></dt>
+		<dd style="float: left;">一二三四五,</dd>
+		<dd style="clear: both;;">上山打老虎</dd>
+
+	</dl>
+
+
+	<!--表格-->
+	<table  border="1" cellspacing="1" cellpadding="1">
+		<tr>
+			<th>编号</th>
+			<th>姓名</th>
+			<th>年龄</th>
+			<th>班级</th>
+			<th>操作</th>
+		</tr>
+		<tr>
+			<td>1</td>
+			<td>张三</td>
+			<td>22</td>
+			<td>k2062</td>
+			<td>
+				<a href="">删除</a>
+				<a href="">增加</a>
+				<a href="">修改</a>
+
+			</td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td>张三2</td>
+			<td>22</td>
+			<td>k2062</td>
+			<td>
+				<a href="">删除</a>
+				<a href="">增加</a>
+				<a href="">修改</a>
+
+			</td>
+		</tr>
+
+
+		<table  border="1" cellspacing="1" cellpadding="1">
+			<tr>
+				<th rowspan="2">姓名</th>
+				<th colspan="2">成绩</th>
+			</tr>
+			<tr>
+				<th>语文</th>
+				<th>数学</th>
+			</tr>
+			<tr>
+				<td>张三</td>
+				<td>90</td>
+				<td>70</td>
+			</tr>
+		</table>
+		<form action="test1.html" method="POST">
+		<h4>用户注册</h4>
+		<p>用户名：<input type="text" name="username" id=""></p>
+		<p>密码：<input type="password" placeholder="请输入密码" name="password">
+		</p>
+		<p>确认密码：<input type="hidden"name="repwd"></p>
+		<p>性别：<input type="radio" checked value="0">&nbsp;男
+			<input type="radio" value="1">&nbsp;女</p>
+		<p>爱好：<input type="checkbox" name="hobby" value="篮球" checked>&nbsp;篮球
+			<input type="checkbox" name="hobby" value="游泳">&nbsp;游泳
+			<input type="checkbox" name="hobby" value="吃货">&nbsp;吃货
+			</p>
+		<p>
+			出生日期：<select name="birthday" >
+				<option value="1970">&nbsp;1970</option>
+				<option value="1970">&nbsp;1971</option>
+				<option value="1970">&nbsp;1972</option>
+			</select>-年
+		</p>
+		<p>
+			上传身份证：<input type="file" name="idfile" >
+		</p>
+		<p>简介：<textarea name="des" cols="30" rows="10" placeholder="此处填写简介"></textarea></p>
+		<p><input type="submit" value="提交">
+		<input type="reset" value="重置"></p>
+	</form>
+</body>
+
+</html>
